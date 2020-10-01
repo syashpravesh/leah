@@ -1,0 +1,65 @@
+{
+  "id": "4a69ee7a-7342-4004-9715-c63ff593a9fb",
+  "name": "names",
+  "auto": true,
+  "contexts": [
+    "great_yes",
+    "orderidcontact",
+    "contact1",
+    "contact2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "go_to_num",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bc8263a6-6ece-4bf5-bc91-10f32c49af77",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is your name ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you $name! please provide us with your Number."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

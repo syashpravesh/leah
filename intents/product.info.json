@@ -1,0 +1,42 @@
+{
+  "id": "7bf6d17a-4919-4d21-90ad-928686b39fc9",
+  "name": "product.info",
+  "auto": true,
+  "contexts": [
+    "greetno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "contact1",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Refrigerator List contains \n----FRENCH DOOR with 5 yrs warranty with a price of 80,000/-\n----SIDE BY SIDE DOOR with 4 yrs warranty with a price of 60,000/-\n----TOP MOUNT DOOR with 4 yrs warranty with a price of 40,000/-\n----SINGLE DOOR with 3yrs warranty with a price of 20,000/-------------\n----------All having a standard rating of 110/220v witha 3 prong pin connection.\n-----------\n-----------\n-----------Please provide us with your name and contact info for our customer service to get in touch with you."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

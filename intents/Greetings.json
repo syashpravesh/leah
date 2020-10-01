@@ -1,0 +1,42 @@
+{
+  "id": "ca600081-88d1-48d2-9de6-8264a8d1b8c6",
+  "name": "Greetings",
+  "auto": true,
+  "contexts": [
+    "redirect_to_greeting"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Greatings-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great lets get started.\nI see you browsing through Refrigerators, How can i help you today ?\nWould you like to make a purchase?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

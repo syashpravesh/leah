@@ -1,0 +1,61 @@
+{
+  "id": "cde7d8c8-ab93-4ce0-bc4a-f196b293de7e",
+  "name": "numbers",
+  "auto": true,
+  "contexts": [
+    "go_to_num",
+    "great_yes",
+    "orderidcontact",
+    "contact2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "contact2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "72cb8939-5f8b-4bb1-a5d2-efe749869c28",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for providing us with your number our customer service agents will contact you in this $number"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

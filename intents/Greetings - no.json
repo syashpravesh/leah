@@ -1,0 +1,44 @@
+{
+  "id": "8602a5f6-f530-4e30-b957-ce149ea2e85b",
+  "parentId": "ca600081-88d1-48d2-9de6-8264a8d1b8c6",
+  "rootParentId": "ca600081-88d1-48d2-9de6-8264a8d1b8c6",
+  "name": "Greetings - no",
+  "auto": true,
+  "contexts": [
+    "Greatings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greatings.Greatings-no",
+      "affectedContexts": [
+        {
+          "name": "greetno",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No worries,\n- Would you like support for an existing device or\n- Information about pending order or\n- Chat with the product expert or \n- Information about our refrigerators."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

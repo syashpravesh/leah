@@ -1,0 +1,64 @@
+{
+  "id": "d844cb7c-0c81-44de-bff5-dcee69acd4fc",
+  "parentId": "6e676760-29dd-46d8-a983-9ded081a5ff9",
+  "rootParentId": "6e676760-29dd-46d8-a983-9ded081a5ff9",
+  "name": "order.id - select.number",
+  "auto": true,
+  "contexts": [
+    "orderid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderid.orderid-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "orderidcontact",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62ea6c75-445f-4329-8127-1863008a6789",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please provide the order number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please provide your contact details with name and number."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

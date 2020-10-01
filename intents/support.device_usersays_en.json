@@ -1,0 +1,67 @@
+[
+  {
+    "id": "aaf2e533-5d62-4855-9f4a-d774e54c76da",
+    "data": [
+      {
+        "text": "refrigerator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e5665b7-04d4-4a63-976a-d00f3cabda49",
+    "data": [
+      {
+        "text": "existing device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbea8f9b-9ff5-4190-8f70-1e75ba4acece",
+    "data": [
+      {
+        "text": "support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a377bd32-e6b6-4b80-a486-0eb5aa62f34e",
+    "data": [
+      {
+        "text": "support for an existing refrigerator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24ec8438-e635-4ccc-bc1b-e349178b9a68",
+    "data": [
+      {
+        "text": "support for an existing device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

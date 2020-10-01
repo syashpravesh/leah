@@ -1,0 +1,132 @@
+[
+  {
+    "id": "db96b9f7-1e57-4127-aa3a-1b91a3563a72",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "yash",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": false
+      },
+      {
+        "text": " and my number is ",
+        "userDefined": false
+      },
+      {
+        "text": "9880447252",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd063ff2-8558-45d9-8dde-b1ea067e4f96",
+    "data": [
+      {
+        "text": "my number is ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " and my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f8ecd51-7aa8-4daf-8fc3-29b47884c75d",
+    "data": [
+      {
+        "text": "name",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27c39800-0a70-4f87-984d-f853ddedbd6e",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " and my ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

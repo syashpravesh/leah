@@ -1,0 +1,41 @@
+[
+  {
+    "id": "98e775d1-b480-4038-9799-fe6b8d6cedcd",
+    "data": [
+      {
+        "text": "customer service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86f14df1-4945-45cd-a321-5e15ca635736",
+    "data": [
+      {
+        "text": "expert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7bb9017-3164-4462-a3e0-452de269666a",
+    "data": [
+      {
+        "text": "contact product expert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

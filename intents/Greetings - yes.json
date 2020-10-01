@@ -1,0 +1,44 @@
+{
+  "id": "eca01eaa-6241-47aa-9a2d-a57e4789e77a",
+  "parentId": "ca600081-88d1-48d2-9de6-8264a8d1b8c6",
+  "rootParentId": "ca600081-88d1-48d2-9de6-8264a8d1b8c6",
+  "name": "Greetings - yes",
+  "auto": true,
+  "contexts": [
+    "Greatings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greatings.Greatings-yes",
+      "affectedContexts": [
+        {
+          "name": "great_yes",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thats Great ! please provide your contact details and our customer service agent will get back up with you."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

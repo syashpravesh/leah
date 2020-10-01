@@ -1,0 +1,137 @@
+[
+  {
+    "id": "8b77b224-ea9b-44cd-b382-920e0574a71a",
+    "data": [
+      {
+        "text": "power source",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c193856-3146-40e9-8c7c-dfa50539741e",
+    "data": [
+      {
+        "text": "warranty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7467b00-f606-4486-be13-ee2adea4bd29",
+    "data": [
+      {
+        "text": "feature list of the product",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cca23e99-d69c-4426-af69-8faf6b6b4619",
+    "data": [
+      {
+        "text": "warranty ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "687f7571-992d-4e22-8781-c6bc2c7e32cc",
+    "data": [
+      {
+        "text": "details of product",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "100776f5-a69a-41b3-beca-f7d1f3aed19c",
+    "data": [
+      {
+        "text": "purchase and details of products",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e68415fe-c082-40dd-8ed5-57ad7fcf6602",
+    "data": [
+      {
+        "text": "purchase of refrigerator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0291aa5d-7455-4ea6-b955-a47bffbad83d",
+    "data": [
+      {
+        "text": "product types",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f13e0ad1-f075-49ee-9b4e-8162e1502e36",
+    "data": [
+      {
+        "text": "refrigerator types",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7770e49d-0944-434b-8575-bd39f51f0b8c",
+    "data": [
+      {
+        "text": "information about refrigerator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

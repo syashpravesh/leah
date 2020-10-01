@@ -1,0 +1,55 @@
+[
+  {
+    "id": "724d25d4-d1c7-4af0-9799-095b834442d7",
+    "data": [
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " is my number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2faf39e-3e97-496a-9fad-7338bf8cd3a9",
+    "data": [
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11d65cb5-8837-46a4-ad4f-68d05eeaf9bd",
+    "data": [
+      {
+        "text": "my number is ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.phone-number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
